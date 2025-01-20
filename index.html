@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Katsuyō - JP Conjugation Quiz</title>
+    <link rel="icon" href="icon.png">
+    <link crossorigin="anonymous" type="text/css" rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" defer />
+    <link href="style.css" rel="stylesheet">
+  </head>
+
+  <body>
+    <div id="main-header">
+      <div id="logo-container" onclick="location.reload();">
+        <!-- <i id="logo-icon" class="fas fa-torii-gate"></i> -->
+        <img id="logo-icon" src="logo_pix.png">
+        <span id="logo-text">Katsuyō</span>
+      </div>
+
+      <div id="links-container">
+        <a title="GitHub repo" href="https://github.com/LKMason/katsuyou"><i class="fa-brands fa-github"></i></a>
+      </div>
+    </div>
+
+    <div id="content">
+      <div id="quiz" class="question">
+        <div id="answer-card" class="card">
+          <i id="button-info" class="fas fa-info-circle button"></i>
+          <div id="answer-title">Answer</div>
+          <!-- <div id="answer-translate">To Meet</div> -->
+          <div id="answer-answer">...</div>
+          <div id="answer-explanation">...</div>
+        </div>
+  
+        <div id="question-card" class="card"><div id="question-base">...</div><div id="question-question">...</div></div>
+  
+        <div id="button-container-question" class="button-container">
+          <div id="button-skip" class="button">Skip <i class="fa-solid fa-forward"></i></div>
+          <div id="button-reveal" class="button">Reveal <i class="fa-solid fa-eye"></i></div>
+        </div>
+
+        <div id="button-container-answer"  class="button-container">
+          <div id="button-next" class="button">Next <i class="fas fa-long-arrow-alt-right"></i></div>
+        </div>
+      </div>
+  
+     
+    </div>
+
+    <script src="src/application.js" type="module"></script>
+  </body>
+</html>
