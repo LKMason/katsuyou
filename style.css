@@ -4,7 +4,6 @@
   --prim-color: #b30e35;
   --sec-color: #ffffff;
   --background-color: #414a4f;
-  --main-padding: 20px;
   font-family: sans-serif;
 }
 
@@ -33,7 +32,6 @@ body {
   box-shadow:
     0 5px 0 0 #A80C33,   
     0 9px 0 0 #7F253E;
-
 }
 
 #logo-icon {
@@ -69,16 +67,16 @@ body {
 }
 
 #content {
-  height: calc(100% - 2 * var(--main-padding) - 14px) ;
+  height: calc(100dvh - 54px);
   box-sizing: border-box;
   background-color: var(--background-color);
-  padding: var(--main-padding);
   position: relative;
   display: flex; 
   flex-direction: column;
   align-items: center;
   justify-content: center;
   gap: 15px;
+  padding-inline: 20px;
 }
 
 #quiz {
