@@ -7,6 +7,10 @@
   font-family: sans-serif;
 }
 
+html {
+  background-color: var(--background-color);
+}
+
 body {
   margin: 0px;
   height: 100vh;
@@ -69,7 +73,7 @@ body {
 #content {
   height: calc(100dvh - 54px);
   box-sizing: border-box;
-  background-color: var(--background-color);
+  /* background-color: var(--background-color); */
   position: relative;
   display: flex; 
   flex-direction: column;
